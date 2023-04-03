@@ -48,7 +48,7 @@ class _LandingScreenState extends State<LandingScreen> {
             ),
             Text(
               'Symmetry.care',
-              style: TextStyle(color: grey1, fontSize: 13),
+              style: TextStyle(color: grey1, fontSize: 25),
             ),
             const Spacer(),
             _isPersonClicked
@@ -116,7 +116,7 @@ class _LandingScreenState extends State<LandingScreen> {
           ? null
           : Container(
               margin: const EdgeInsets.symmetric(horizontal: 22, vertical: 20),
-              height: 50,
+              height: 80,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(46),
                 color: blue1,

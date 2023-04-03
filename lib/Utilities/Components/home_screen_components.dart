@@ -209,7 +209,7 @@ class VisitCard extends StatelessWidget {
 
   communicationItem({required String label, required String imageText}) {
     return Container(
-      width: 78,
+      width: 90,
       height: 20,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(4),
@@ -229,7 +229,7 @@ class VisitCard extends StatelessWidget {
           Text(
             label,
             style: TextStyle(
-              fontSize: 11,
+              fontSize: 16,
               color: blue1,
               fontWeight: FontWeight.w400,
             ),
@@ -253,7 +253,7 @@ class VisitCard extends StatelessWidget {
           children: [
             Container(
               // alignment: Alignment.topCenter,
-              height: 130,
+              height: 140,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.centerLeft,
@@ -322,7 +322,7 @@ class VisitCard extends StatelessWidget {
                                 Text(
                                   name,
                                   style: TextStyle(
-                                    fontSize: 14,
+                                    fontSize: 16,
                                     color: black1,
                                     fontWeight: FontWeight.w600,
                                   ),
@@ -330,7 +330,7 @@ class VisitCard extends StatelessWidget {
                                 Text(
                                   'Critical Care',
                                   style: TextStyle(
-                                    fontSize: 12,
+                                    fontSize: 14,
                                     color: grey7,
                                     fontWeight: FontWeight.w400,
                                   ),
@@ -339,7 +339,7 @@ class VisitCard extends StatelessWidget {
                                 Text(
                                   '9:00 AM - 11:00 AM',
                                   style: TextStyle(
-                                    fontSize: 12,
+                                    fontSize: 14,
                                     color: black1,
                                     fontWeight: FontWeight.w600,
                                   ),
@@ -347,7 +347,7 @@ class VisitCard extends StatelessWidget {
                                 Text(
                                   status,
                                   style: TextStyle(
-                                    fontSize: 12,
+                                    fontSize: 14,
                                     color: status.toLowerCase() == 'completed'
                                         ? green2
                                         : status.toLowerCase() == 'on their way'

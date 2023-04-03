@@ -31,7 +31,7 @@ class SupportScreen extends StatelessWidget {
                   child: Text(
                     'Clinicians',
                     style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 20,
                         fontWeight: FontWeight.w500,
                         color: blue1),
                   ),
@@ -61,7 +61,7 @@ class SupportScreen extends StatelessWidget {
                   child: Text(
                     'Primary Care Physician',
                     style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 20,
                         fontWeight: FontWeight.w500,
                         color: blue1),
                   ),
@@ -80,7 +80,7 @@ class SupportScreen extends StatelessWidget {
                   child: Text(
                     'Other Support',
                     style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 20,
                         fontWeight: FontWeight.w500,
                         color: blue1),
                   ),

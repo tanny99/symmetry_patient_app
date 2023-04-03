@@ -35,14 +35,14 @@ class WelcomeScreen extends StatelessWidget {
                       'Symmetry',
                       style: TextStyle(
                           color: grey1,
-                          fontSize: 18,
+                          fontSize: 30,
                           fontWeight: FontWeight.w400),
                     ),
                     Text(
                       'Get Well',
                       style: TextStyle(
                           color: grey1,
-                          fontSize: 15,
+                          fontSize: 25,
                           fontWeight: FontWeight.w400),
                     ),
                   ],
@@ -68,7 +68,7 @@ class WelcomeScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             color: white1,
-                            fontSize: 16,
+                            fontSize: 20,
                             fontWeight: FontWeight.w400),
                       ),
                     ),
@@ -91,7 +91,7 @@ class WelcomeScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             color: blue1,
-                            fontSize: 16,
+                            fontSize: 20,
                             fontWeight: FontWeight.w400),
                       ),
                     ),

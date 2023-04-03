@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                       '50',
                       style: TextStyle(
                           color: white1,
-                          fontSize: 11,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500),
                     ),
                   ),
@@ -90,7 +90,7 @@ class HomeScreen extends StatelessWidget {
                                 Text(
                                   'Total Visits',
                                   style: TextStyle(
-                                    fontSize: 12,
+                                    fontSize: 16,
                                     color: grey5,
                                     fontFamily: 'Open Sans',
                                     fontWeight: FontWeight.w600,
@@ -99,7 +99,7 @@ class HomeScreen extends StatelessWidget {
                                 Text(
                                   '(50)',
                                   style: TextStyle(
-                                    fontSize: 14,
+                                    fontSize: 18,
                                     color: blue1,
                                     fontFamily: 'Open Sans',
                                     fontWeight: FontWeight.w600,
@@ -146,7 +146,7 @@ class HomeScreen extends StatelessWidget {
             Text(
               'Today\'s Visits',
               style: TextStyle(
-                  fontSize: 14, fontWeight: FontWeight.w600, color: blue1),
+                  fontSize: 18, fontWeight: FontWeight.w600, color: blue1),
             ),
             const SizedBox(
               height: 8,

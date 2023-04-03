@@ -69,7 +69,7 @@ customInputDecoration({required String hintText, Widget? suffixIcon}) {
     ),
     filled: true,
     hintStyle:
-        TextStyle(color: grey4, fontSize: 12, fontWeight: FontWeight.w400),
+        TextStyle(color: grey4, fontSize: 16, fontWeight: FontWeight.w400),
     hintText: hintText,
     fillColor: white1,
     contentPadding: const EdgeInsets.symmetric(vertical: 0, horizontal: 20),

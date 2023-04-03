@@ -93,7 +93,7 @@ class _RatingRecommendationScreenState
                         child: Text(
                           'Rate your overall experience with prohealth',
                           style: TextStyle(
-                            fontSize: 14,
+                            fontSize: 18,
                             fontWeight: FontWeight.w500,
                             color: grey5,
                           ),
@@ -142,7 +142,7 @@ class _RatingRecommendationScreenState
                         child: Text(
                           'Would you recommend pro health to others?',
                           style: TextStyle(
-                            fontSize: 14,
+                            fontSize: 18,
                             fontWeight: FontWeight.w500,
                             color: grey5,
                           ),
@@ -163,7 +163,7 @@ class _RatingRecommendationScreenState
                               child: Text(
                                 'Yes',
                                 style: TextStyle(
-                                  fontSize: 12,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w400,
                                   color: white1,
                                 ),
@@ -180,7 +180,7 @@ class _RatingRecommendationScreenState
                               child: Text(
                                 'No',
                                 style: TextStyle(
-                                  fontSize: 12,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w400,
                                   color: white1,
                                 ),
@@ -221,7 +221,7 @@ class _RatingRecommendationScreenState
                       'Next',
                       style: TextStyle(
                         color: white1,
-                        fontSize: 11,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
@@ -283,7 +283,7 @@ class RatingCandidates extends StatelessWidget {
               Text(
                 'How did $name Williams do overall?',
                 style: TextStyle(
-                  fontSize: 14,
+                  fontSize: 18,
                   fontWeight: FontWeight.w500,
                   color: grey5,
                 ),

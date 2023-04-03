@@ -17,7 +17,7 @@ contactOption({required String icon, required String label}) {
       children: [
         Image.asset(
           "assets/images/$icon.png",
-          width: 14,
+          width: 10,
           height: 11,
         ),
         const SizedBox(
@@ -27,7 +27,7 @@ contactOption({required String icon, required String label}) {
           label,
           style: TextStyle(
             fontFamily: 'Open Sans',
-            fontSize: 11,
+            fontSize: 14,
             fontWeight: FontWeight.w400,
             color: blue1,
           ),
@@ -85,7 +85,7 @@ class OtherSupportItem extends StatelessWidget {
                   label,
                   style: TextStyle(
                     fontFamily: 'Open Sans',
-                    fontSize: 13,
+                    fontSize: 16,
                     fontWeight: FontWeight.w600,
                     color: black2,
                   ),
@@ -129,7 +129,7 @@ class PrimaryCarePhysicianCard extends StatelessWidget {
             children: [
               Container(
                 width: 41,
-                height: 39.6,
+                height: 42,
                 decoration: BoxDecoration(shape: BoxShape.circle, color: blue1),
               ),
               Container(
@@ -152,7 +152,7 @@ class PrimaryCarePhysicianCard extends StatelessWidget {
             name,
             style: TextStyle(
               fontFamily: 'Open Sans',
-              fontSize: 13,
+              fontSize: 15,
               fontWeight: FontWeight.w600,
               color: black2,
             ),
@@ -178,7 +178,7 @@ class PrimaryCarePhysicianCard extends StatelessWidget {
                   'Call Office',
                   style: TextStyle(
                     fontFamily: 'Open Sans',
-                    fontSize: 11,
+                    fontSize: 18,
                     fontWeight: FontWeight.w400,
                     color: white3,
                   ),
@@ -220,7 +220,7 @@ class ClinicianCard extends StatelessWidget {
                 children: [
                   Container(
                     width: 41,
-                    height: 39.6,
+                    height: 42.6,
                     decoration:
                         BoxDecoration(shape: BoxShape.circle, color: blue1),
                   ),
@@ -247,14 +247,14 @@ class ClinicianCard extends StatelessWidget {
                     name,
                     style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 13,
+                      fontSize: 14,
                       fontWeight: FontWeight.w600,
                       color: black2,
                     ),
                   ),
                   Container(
                     width: 86,
-                    height: 15,
+                    height: 21,
                     decoration: BoxDecoration(
                       color: occupationHighlightColor,
                       borderRadius: BorderRadius.circular(4),
@@ -264,7 +264,7 @@ class ClinicianCard extends StatelessWidget {
                         occupation,
                         style: TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 8,
+                          fontSize: 14,
                           fontWeight: FontWeight.w600,
                           color: white1,
                         ),

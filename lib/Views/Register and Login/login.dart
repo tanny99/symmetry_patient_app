@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         style: TextStyle(
                             color: grey2,
                             fontWeight: FontWeight.w500,
-                            fontSize: 18),
+                            fontSize: 25),
                       ),
                       const SizedBox(
                         height: 12,
@@ -66,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         style: TextStyle(
                             decoration: TextDecoration.underline,
                             color: grey3,
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w400),
                       ),
                       const SizedBox(
@@ -100,7 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         textAlign: TextAlign.right,
                         style: TextStyle(
                             color: blue4,
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w400),
                       ),
                       const SizedBox(
@@ -117,7 +117,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: white1,
-                              fontSize: 16,
+                              fontSize: 20,
                               fontWeight: FontWeight.w400),
                         ),
                       ),

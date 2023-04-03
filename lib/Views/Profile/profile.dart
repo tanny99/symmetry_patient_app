@@ -46,7 +46,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Lera Joseph',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 18,
+                            fontSize: 25,
                             fontWeight: FontWeight.w600,
                             color: blue1),
                       ),
@@ -65,7 +65,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               Text(
                                 'Edit',
                                 style: TextStyle(
-                                  fontSize: 11,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w600,
                                   color: blue1,
                                 ),
@@ -87,7 +87,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 14,
+                      fontSize: 16,
                       fontWeight: FontWeight.w600,
                       color: blue9),
                 ),
@@ -98,7 +98,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   'Phone Number',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 12,
+                      fontSize: 16,
                       fontWeight: FontWeight.w600,
                       color: blue1),
                 ),
@@ -106,7 +106,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   '(408) 638-0374',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 14,
+                      fontSize: 18,
                       fontWeight: FontWeight.w600,
                       color: black3),
                 ),
@@ -117,7 +117,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   'Address',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 12,
+                      fontSize: 16,
                       fontWeight: FontWeight.w600,
                       color: blue1),
                 ),
@@ -125,7 +125,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   '8502 Preston Rd. Inglewood, Los Angeles, California- 873268',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 14,
+                      fontSize: 20,
                       fontWeight: FontWeight.w600,
                       color: black3),
                 ),
@@ -136,7 +136,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   'Treatment',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 12,
+                      fontSize: 16,
                       fontWeight: FontWeight.w600,
                       color: blue1),
                 ),
@@ -170,7 +170,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       'Notes',
                       style: TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 15,
+                          fontSize: 18,
                           fontWeight: FontWeight.w700,
                           color: blue1),
                     ),
@@ -188,7 +188,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               Text(
                                 'Edit',
                                 style: TextStyle(
-                                  fontSize: 11,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w600,
                                   color: blue1,
                                 ),
@@ -215,7 +215,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       '  \u2022  ${notes[index]}',
                       style: TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 14,
+                          fontSize: 18,
                           fontWeight: FontWeight.w600,
                           color: black3),
                     );
@@ -235,7 +235,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   'Insurance',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 15,
+                      fontSize: 20,
                       fontWeight: FontWeight.w700,
                       color: blue1),
                 ),
@@ -252,7 +252,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Primary',
                             style: TextStyle(
                                 fontFamily: 'Open Sans',
-                                fontSize: 12,
+                                fontSize: 16,
                                 fontWeight: FontWeight.w600,
                                 color: blue1),
                           ),
@@ -263,7 +263,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   text: 'Medicare- ',
                                   style: TextStyle(
                                       fontFamily: 'Open Sans',
-                                      fontSize: 12,
+                                      fontSize: 16,
                                       fontWeight: FontWeight.w600,
                                       color: black3),
                                 ),
@@ -271,7 +271,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   text: 'JOC1865',
                                   style: TextStyle(
                                       fontFamily: 'Open Sans',
-                                      fontSize: 12,
+                                      fontSize: 16,
                                       fontWeight: FontWeight.w700,
                                       color: black3),
                                 )
@@ -289,7 +289,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Secondary',
                             style: TextStyle(
                                 fontFamily: 'Open Sans',
-                                fontSize: 12,
+                                fontSize: 16,
                                 fontWeight: FontWeight.w600,
                                 color: blue1),
                           ),
@@ -300,7 +300,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   text: 'Blue Cross- ',
                                   style: TextStyle(
                                       fontFamily: 'Open Sans',
-                                      fontSize: 12,
+                                      fontSize: 16,
                                       fontWeight: FontWeight.w600,
                                       color: black3),
                                 ),
@@ -308,7 +308,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   text: 'DC7617345P',
                                   style: TextStyle(
                                       fontFamily: 'Open Sans',
-                                      fontSize: 12,
+                                      fontSize: 16,
                                       fontWeight: FontWeight.w700,
                                       color: black3),
                                 )
@@ -437,7 +437,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         '8502 Preston Rd. Inglewood, Los Angeles, California- 873268',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 14,
+                            fontSize: 16,
                             fontWeight: FontWeight.w600,
                             color: black3),
                       ),
