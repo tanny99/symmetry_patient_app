@@ -70,9 +70,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   color: blue1,
                                 ),
                               ),
+                              const SizedBox(
+                                width: 2,
+                              ),
                               Icon(
                                 Icons.edit_outlined,
-                                size: 11,
+                                size: 20,
                                 color: blue1,
                               ),
                             ],
@@ -98,46 +101,46 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   'Phone Number',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w700,
                       color: blue1),
                 ),
                 Text(
                   '(408) 638-0374',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 18,
+                      fontSize: 16,
                       fontWeight: FontWeight.w600,
                       color: black3),
                 ),
                 const SizedBox(
-                  height: 22,
+                  height: 15,
                 ),
                 Text(
                   'Address',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w700,
                       color: blue1),
                 ),
                 Text(
                   '8502 Preston Rd. Inglewood, Los Angeles, California- 873268',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 20,
+                      fontSize: 16,
                       fontWeight: FontWeight.w600,
                       color: black3),
                 ),
                 const SizedBox(
-                  height: 22,
+                  height: 15,
                 ),
                 Text(
                   'Treatment',
                   style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w700,
                       color: blue1),
                 ),
                 Column(
@@ -147,21 +150,21 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       '  \u2022  ${treatments[index]}',
                       style: TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w600,
                           color: black3),
                     );
                   }),
                 ),
                 const SizedBox(
-                  height: 21,
+                  height: 15,
                 ),
                 Container(
                   height: 2,
                   color: white4,
                 ),
                 const SizedBox(
-                  height: 33,
+                  height: 15,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -193,9 +196,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   color: blue1,
                                 ),
                               ),
+                              const SizedBox(
+                                width: 2,
+                              ),
                               Icon(
                                 Icons.edit_outlined,
-                                size: 11,
+                                size: 20,
                                 color: blue1,
                               ),
                             ],
@@ -215,21 +221,21 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       '  \u2022  ${notes[index]}',
                       style: TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 18,
+                          fontSize: 16,
                           fontWeight: FontWeight.w600,
                           color: black3),
                     );
                   }),
                 ),
                 const SizedBox(
-                  height: 27,
+                  height: 15,
                 ),
                 Container(
                   height: 2,
                   color: white4,
                 ),
                 const SizedBox(
-                  height: 17,
+                  height: 15,
                 ),
                 Text(
                   'Insurance',
@@ -240,7 +246,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       color: blue1),
                 ),
                 const SizedBox(
-                  height: 7,
+                  height: 5,
                 ),
                 Row(
                   children: [
@@ -321,14 +327,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ],
                 ),
                 const SizedBox(
-                  height: 39,
+                  height: 15,
                 ),
                 Container(
                   height: 2,
                   color: white4,
                 ),
                 const SizedBox(
-                  height: 22,
+                  height: 15,
                 ),
                 Row(
                   children: [
@@ -350,7 +356,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       'Primary Care Physician',
                       style: TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 15,
+                          fontSize: 18,
                           fontWeight: FontWeight.w700,
                           color: blue1),
                     ),
@@ -373,7 +379,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               'Name',
                               style: TextStyle(
                                   fontFamily: 'Open Sans',
-                                  fontSize: 12,
+                                  fontSize: 18,
                                   fontWeight: FontWeight.w600,
                                   color: blue1),
                             ),
@@ -381,20 +387,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               'Clarke Allen',
                               style: TextStyle(
                                   fontFamily: 'Open Sans',
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w600,
                                   color: black3),
                             ),
                           ],
                         ),
                         Container(
-                          width: 26,
-                          height: 26,
+                          width: 30,
+                          height: 30,
                           decoration: BoxDecoration(
                               shape: BoxShape.circle, color: blue1),
                           child: Icon(
                             Icons.call_outlined,
-                            size: 14,
+                            size: 20,
                             color: white1,
                           ),
                         ),
@@ -410,7 +416,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Phone Number',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w600,
                             color: blue1),
                       ),
@@ -418,7 +424,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         '(408) 638-0374',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 14,
+                            fontSize: 16,
                             fontWeight: FontWeight.w600,
                             color: black3),
                       ),
@@ -429,7 +435,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Address',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w600,
                             color: blue1),
                       ),
@@ -451,15 +457,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Orders',
                             style: TextStyle(
                                 fontFamily: 'Open Sans',
-                                fontSize: 12,
+                                fontSize: 18,
                                 fontWeight: FontWeight.w600,
                                 color: blue1),
                           ),
                           InkWell(
                             onTap: () {},
                             child: Container(
-                              width: 61,
-                              height: 18,
+                              width: 60,
+                              height: 30,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4),
                                 border: Border.all(color: blue1),
@@ -470,7 +476,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   'View',
                                   style: TextStyle(
                                     fontFamily: 'Open Sans',
-                                    fontSize: 11,
+                                    fontSize: 16,
                                     fontWeight: FontWeight.w400,
                                     color: blue1,
                                   ),
@@ -487,7 +493,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '  \u2022  ${orders[index]}',
                             style: TextStyle(
                                 fontFamily: 'Open Sans',
-                                fontSize: 14,
+                                fontSize: 16,
                                 fontWeight: FontWeight.w600,
                                 color: black3),
                           );
@@ -497,14 +503,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                 ),
                 const SizedBox(
-                  height: 22,
+                  height: 15,
                 ),
                 Container(
                   height: 2,
                   color: white4,
                 ),
                 const SizedBox(
-                  height: 22,
+                  height: 15,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -513,7 +519,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       'Emergency Contact',
                       style: TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 15,
+                          fontSize: 18,
                           fontWeight: FontWeight.w700,
                           color: blue1),
                     ),
@@ -531,14 +537,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               Text(
                                 'Edit',
                                 style: TextStyle(
-                                  fontSize: 11,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w600,
                                   color: blue1,
                                 ),
                               ),
+                              const SizedBox(
+                                width: 2,
+                              ),
                               Icon(
                                 Icons.edit_outlined,
-                                size: 11,
+                                size: 20,
                                 color: blue1,
                               ),
                             ],
@@ -562,7 +571,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           'Name',
                           style: TextStyle(
                               fontFamily: 'Open Sans',
-                              fontSize: 12,
+                              fontSize: 18,
                               fontWeight: FontWeight.w600,
                               color: blue1),
                         ),
@@ -570,7 +579,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           'Michael Clarke',
                           style: TextStyle(
                               fontFamily: 'Open Sans',
-                              fontSize: 14,
+                              fontSize: 16,
                               fontWeight: FontWeight.w600,
                               color: black3),
                         ),
@@ -586,7 +595,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Relation',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w600,
                             color: blue1),
                       ),
@@ -594,7 +603,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Brother',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 14,
+                            fontSize: 16,
                             fontWeight: FontWeight.w600,
                             color: black3),
                       ),
@@ -605,7 +614,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Phone Number',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w600,
                             color: blue1),
                       ),
@@ -613,7 +622,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         '(408) 638-0374',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 14,
+                            fontSize: 16,
                             fontWeight: FontWeight.w600,
                             color: black3),
                       ),
@@ -624,7 +633,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Address',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w600,
                             color: blue1),
                       ),
@@ -632,7 +641,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         '8502 Preston Rd. Inglewood, Los Angeles, California- 873268',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 14,
+                            fontSize: 16,
                             fontWeight: FontWeight.w600,
                             color: black3),
                       ),
@@ -643,7 +652,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Contact Notes',
                         style: TextStyle(
                             fontFamily: 'Open Sans',
-                            fontSize: 12,
+                            fontSize: 18,
                             fontWeight: FontWeight.w600,
                             color: blue1),
                       ),
@@ -654,7 +663,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '  \u2022  ${orders[index]}',
                             style: TextStyle(
                                 fontFamily: 'Open Sans',
-                                fontSize: 14,
+                                fontSize: 16,
                                 fontWeight: FontWeight.w600,
                                 color: black3),
                           );

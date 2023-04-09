@@ -17,21 +17,22 @@ class DateTimeButton extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        width: 83,
-        height: 21,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(4),
           border: Border.all(color: blue1),
           color: white1,
         ),
         child: Center(
-          child: Text(
-            label,
-            style: TextStyle(
-              fontFamily: 'Open Sans',
-              fontSize: 10,
-              fontWeight: FontWeight.w400,
-              color: blue1,
+          child: Padding(
+            padding: const EdgeInsets.all(4),
+            child: Text(
+              label,
+              style: TextStyle(
+                fontFamily: 'Open Sans',
+                fontSize: 14,
+                fontWeight: FontWeight.w400,
+                color: blue1,
+              ),
             ),
           ),
         ),
@@ -132,7 +133,7 @@ clinicianListItem(e) {
         e['occupation'],
         style: TextStyle(
           fontFamily: 'Open Sans',
-          fontSize: 14,
+          fontSize: 16,
           fontWeight: FontWeight.w400,
           color: black3,
         ),

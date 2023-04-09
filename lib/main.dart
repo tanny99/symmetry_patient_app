@@ -15,7 +15,7 @@ void main() {
       debugShowCheckedModeBanner: false,
       routes: {
         'welcome': (context) => const WelcomeScreen(),
-        'landing': (context) => const LandingScreen(),
+        'landing': (context) => LandingScreen(),
         'rating': (context) => const RatingRecommendationScreen(),
       },
       initialRoute: 'welcome',

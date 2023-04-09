@@ -61,7 +61,7 @@ class SurveyScreen extends StatelessWidget {
                     'Submit Survey',
                     style: TextStyle(
                       color: white1,
-                      fontSize: 11,
+                      fontSize: 16,
                       fontWeight: FontWeight.w400,
                     ),
                   ),

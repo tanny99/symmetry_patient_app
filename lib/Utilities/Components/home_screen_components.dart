@@ -209,8 +209,8 @@ class VisitCard extends StatelessWidget {
 
   communicationItem({required String label, required String imageText}) {
     return Container(
-      width: 90,
-      height: 20,
+      width: 95,
+      height: 25,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(4),
         border: Border.all(color: blue1),
@@ -220,8 +220,8 @@ class VisitCard extends StatelessWidget {
         children: [
           Image.asset(
             "assets/images/$imageText.png",
-            width: 11,
-            height: 11,
+            width: 15,
+            height: 15,
           ),
           const SizedBox(
             width: 6,
@@ -253,7 +253,7 @@ class VisitCard extends StatelessWidget {
           children: [
             Container(
               // alignment: Alignment.topCenter,
-              height: 140,
+              height: 142,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.centerLeft,
@@ -270,14 +270,14 @@ class VisitCard extends StatelessWidget {
               child: Container(
                 // alignment: Alignment.topCenter,
                 width: Config(context).width - 85,
-                height: 130,
+                height: 137,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(7),
                   // border: Border.all(color: white1),
                   color: white1,
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.fromLTRB(10, 10, 25, 10),
+                  padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
                   child: Column(
                     children: [
                       Row(
@@ -362,15 +362,20 @@ class VisitCard extends StatelessWidget {
                         ],
                       ),
                       const SizedBox(
-                        height: 11,
+                        height: 13,
                       ),
                       Row(
+                        //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           communicationItem(label: 'Call', imageText: 'call1'),
-                          const Spacer(),
+                          const SizedBox(
+                            width: 8,
+                          ),
                           communicationItem(
                               label: 'Video', imageText: 'video_call'),
-                          const Spacer(),
+                          const SizedBox(
+                            width: 10,
+                          ),
                           communicationItem(
                               label: 'Message', imageText: 'message'),
                         ],

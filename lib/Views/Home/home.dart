@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
                 Text(
                   'Total Visits',
                   style: TextStyle(
-                      fontSize: 14, fontWeight: FontWeight.w600, color: grey5),
+                      fontSize: 18, fontWeight: FontWeight.w600, color: grey5),
                 ),
                 const SizedBox(
                   width: 8,

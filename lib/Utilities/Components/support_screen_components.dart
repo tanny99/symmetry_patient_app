@@ -4,8 +4,8 @@ import '../constants.dart';
 
 contactOption({required String icon, required String label}) {
   return Container(
-    width: 71,
-    height: 20,
+    width: 100,
+    height: 30,
     decoration: BoxDecoration(
       color: white1,
       border: Border.all(color: blue1),
@@ -17,8 +17,8 @@ contactOption({required String icon, required String label}) {
       children: [
         Image.asset(
           "assets/images/$icon.png",
-          width: 10,
-          height: 11,
+          width: 16,
+          height: 16,
         ),
         const SizedBox(
           width: 5,
@@ -27,7 +27,7 @@ contactOption({required String icon, required String label}) {
           label,
           style: TextStyle(
             fontFamily: 'Open Sans',
-            fontSize: 14,
+            fontSize: 16,
             fontWeight: FontWeight.w400,
             color: blue1,
           ),
@@ -55,7 +55,7 @@ class OtherSupportItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: Config(context).width,
-      padding: const EdgeInsets.only(left: 22, right: 10),
+      padding: const EdgeInsets.only(left: 15, right: 10),
       child: Column(
         children: [
           Row(
@@ -64,8 +64,8 @@ class OtherSupportItem extends StatelessWidget {
                 alignment: Alignment.center,
                 children: [
                   Container(
-                    width: 41,
-                    height: 39.6,
+                    width: 45,
+                    height: 45,
                     decoration:
                         BoxDecoration(shape: BoxShape.circle, color: blue1),
                   ),
@@ -121,20 +121,20 @@ class PrimaryCarePhysicianCard extends StatelessWidget {
           color: grey9,
         ),
       ),
-      padding: const EdgeInsets.fromLTRB(22, 12, 10, 12),
+      padding: const EdgeInsets.fromLTRB(15, 12, 10, 12),
       child: Row(
         children: [
           Stack(
             alignment: Alignment.topRight,
             children: [
               Container(
-                width: 41,
-                height: 42,
+                width: 45,
+                height: 45,
                 decoration: BoxDecoration(shape: BoxShape.circle, color: blue1),
               ),
               Container(
-                width: 37.65,
-                height: 36.36,
+                width: 40,
+                height: 40,
                 decoration:
                     BoxDecoration(shape: BoxShape.circle, color: white1),
                 clipBehavior: Clip.hardEdge,
@@ -152,7 +152,7 @@ class PrimaryCarePhysicianCard extends StatelessWidget {
             name,
             style: TextStyle(
               fontFamily: 'Open Sans',
-              fontSize: 15,
+              fontSize: 16,
               fontWeight: FontWeight.w600,
               color: black2,
             ),
@@ -168,8 +168,8 @@ class PrimaryCarePhysicianCard extends StatelessWidget {
               children: [
                 Image.asset(
                   "assets/images/call2.png",
-                  width: 14,
-                  height: 11,
+                  width: 16,
+                  height: 16,
                 ),
                 const SizedBox(
                   width: 5,
@@ -178,7 +178,7 @@ class PrimaryCarePhysicianCard extends StatelessWidget {
                   'Call Office',
                   style: TextStyle(
                     fontFamily: 'Open Sans',
-                    fontSize: 18,
+                    fontSize: 16,
                     fontWeight: FontWeight.w400,
                     color: white3,
                   ),
@@ -211,22 +211,23 @@ class ClinicianCard extends StatelessWidget {
     return Column(
       children: [
         Container(
+          height: 60,
           width: Config(context).width,
-          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 5),
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
           child: Row(
             children: [
               Stack(
                 alignment: Alignment.topRight,
                 children: [
                   Container(
-                    width: 41,
-                    height: 42.6,
+                    width: 45,
+                    height: 45,
                     decoration:
                         BoxDecoration(shape: BoxShape.circle, color: blue1),
                   ),
                   Container(
-                    width: 37.65,
-                    height: 36.36,
+                    width: 40,
+                    height: 40,
                     decoration:
                         BoxDecoration(shape: BoxShape.circle, color: white1),
                     clipBehavior: Clip.hardEdge,
@@ -247,18 +248,20 @@ class ClinicianCard extends StatelessWidget {
                     name,
                     style: TextStyle(
                       fontFamily: 'Open Sans',
-                      fontSize: 14,
+                      fontSize: 16,
                       fontWeight: FontWeight.w600,
                       color: black2,
                     ),
                   ),
+                  const SizedBox(
+                    height: 5,
+                  ),
                   Container(
-                    width: 86,
-                    height: 21,
                     decoration: BoxDecoration(
                       color: occupationHighlightColor,
                       borderRadius: BorderRadius.circular(4),
                     ),
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
                     child: Center(
                       child: Text(
                         occupation,
@@ -277,13 +280,13 @@ class ClinicianCard extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    width: 26,
-                    height: 26,
+                    width: 30,
+                    height: 30,
                     decoration:
                         BoxDecoration(shape: BoxShape.circle, color: blue1),
                     child: Icon(
                       Icons.call_outlined,
-                      size: 14,
+                      size: 18,
                       color: white1,
                     ),
                   ),
@@ -291,13 +294,13 @@ class ClinicianCard extends StatelessWidget {
                     width: 14,
                   ),
                   Container(
-                    width: 26,
-                    height: 26,
+                    width: 30,
+                    height: 30,
                     decoration:
                         BoxDecoration(shape: BoxShape.circle, color: blue1),
                     child: Icon(
                       Icons.messenger_outline_outlined,
-                      size: 14,
+                      size: 18,
                       color: white1,
                     ),
                   ),
@@ -305,13 +308,13 @@ class ClinicianCard extends StatelessWidget {
                     width: 14,
                   ),
                   Container(
-                    width: 26,
-                    height: 26,
+                    width: 30,
+                    height: 30,
                     decoration:
                         BoxDecoration(shape: BoxShape.circle, color: blue1),
                     child: Icon(
                       Icons.video_call_outlined,
-                      size: 14,
+                      size: 18,
                       color: white1,
                     ),
                   ),

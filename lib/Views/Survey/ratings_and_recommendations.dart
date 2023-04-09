@@ -24,11 +24,11 @@ class _RatingRecommendationScreenState
         automaticallyImplyLeading: false,
         title: Row(
           children: [
-            const SizedBox(width: 22),
+            const SizedBox(width: 15),
             Text(
               'Survey',
               style: TextStyle(
-                  color: grey5, fontSize: 18, fontWeight: FontWeight.w600),
+                  color: grey5, fontSize: 24, fontWeight: FontWeight.w600),
             ),
           ],
         ),
@@ -38,11 +38,11 @@ class _RatingRecommendationScreenState
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const SizedBox(height: 21),
+              const SizedBox(height: 15),
               Image.asset(
                 "assets/images/pro_health.png",
                 width: Config(context).width * 0.45,
-                height: 48,
+                height: 60,
               ),
               const SizedBox(height: 18),
               Container(
@@ -74,7 +74,7 @@ class _RatingRecommendationScreenState
                   ),
                 ),
               ),
-              const SizedBox(height: 18),
+              const SizedBox(height: 20),
               Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
@@ -100,7 +100,7 @@ class _RatingRecommendationScreenState
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 43.0),
+                        padding: const EdgeInsets.symmetric(vertical: 20.0),
                         child: RatingBar.builder(
                           initialRating: 4,
                           minRating: 1,
@@ -123,7 +123,7 @@ class _RatingRecommendationScreenState
                   ),
                 ),
               ),
-              const SizedBox(height: 18),
+              const SizedBox(height: 20),
               Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
@@ -288,6 +288,9 @@ class RatingCandidates extends StatelessWidget {
                   color: grey5,
                 ),
               ),
+              const SizedBox(
+                height: 10,
+              ),
               RatingBar.builder(
                 initialRating: 5,
                 minRating: 1,
@@ -299,7 +302,7 @@ class RatingCandidates extends StatelessWidget {
                 itemBuilder: (context, _) => Icon(
                   Icons.star,
                   color: blue1,
-                  size: 10,
+                  size: 15,
                 ),
                 onRatingUpdate: (rating) {
                   // print(rating);

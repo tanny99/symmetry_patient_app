@@ -57,7 +57,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         style: TextStyle(
                             color: grey2,
                             fontWeight: FontWeight.w500,
-                            fontSize: 18),
+                            fontSize: 24),
                       ),
                       const SizedBox(
                         height: 12,
@@ -67,7 +67,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         style: TextStyle(
                             decoration: TextDecoration.underline,
                             color: grey3,
-                            fontSize: 12,
+                            fontSize: 14,
                             fontWeight: FontWeight.w400),
                       ),
                       const SizedBox(

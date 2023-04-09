@@ -45,7 +45,7 @@ class ScheduleScreen extends StatelessWidget {
                         unselectedLabelColor: grey12,
                         unselectedLabelStyle: const TextStyle(
                           fontFamily: 'Open Sans',
-                          fontSize: 12,
+                          fontSize: 14,
                           fontWeight: FontWeight.w400,
                         ),
                         tabs: const [

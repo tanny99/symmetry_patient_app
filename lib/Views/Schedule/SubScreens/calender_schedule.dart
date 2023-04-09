@@ -37,17 +37,18 @@ class _CalenderScheduleScreenState extends State<CalenderScheduleScreen> {
             timeInterval: Duration(minutes: 30),
             timeFormat: 'h:mm a',
             dayFormat: 'EE',
+            //timeTextStyle: TextStyle(fontSize: 20)
           ),
           viewHeaderStyle: ViewHeaderStyle(
             dateTextStyle: TextStyle(
               fontFamily: 'Open Sans',
-              fontSize: 12,
+              fontSize: 14,
               fontWeight: FontWeight.w500,
               color: blue1,
             ),
             dayTextStyle: TextStyle(
               fontFamily: 'Open Sans',
-              fontSize: 14,
+              fontSize: 16,
               fontWeight: FontWeight.w600,
               color: blue1,
             ),
