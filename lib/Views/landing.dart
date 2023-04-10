@@ -31,6 +31,7 @@ class LandingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Obx(() => Scaffold(
+
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
@@ -110,59 +111,68 @@ class LandingScreen extends StatelessWidget {
             ],
           ),
         ),
+
         body: c.isPersonClicked.value
             ? const ProfileScreen()
             : screens[c.currentIndex.value],
         bottomNavigationBar: c.isPersonClicked.value
             ? null
-            : Padding(
-                padding: const EdgeInsets.fromLTRB(20, 0, 20, 10),
-                child: Card(
-                    color: blue1,
-                    elevation: 20,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30)),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: NavigationBar(
-                        labelBehavior:
-                            NavigationDestinationLabelBehavior.alwaysHide,
-                        height: 50,
-                        backgroundColor: blue1,
-                        elevation: 0,
-                        animationDuration: const Duration(seconds: 1),
-                        selectedIndex: c.currentIndex.value,
-                        onDestinationSelected: (index) {
-                          c.setIndex(index);
-                        },
-                        destinations: [
-                          customBottomNavigationBarItem(
-                              label: 'Home',
-                              icondata:
-                                  const AssetImage("assets/images/home.png"),
-                              currentIndex: c.currentIndex.value,
-                              index: 0),
-                          customBottomNavigationBarItem(
-                              label: 'Schedule',
-                              icondata: const AssetImage(
-                                  "assets/images/schedule.png"),
-                              currentIndex: c.currentIndex.value,
-                              index: 1),
-                          customBottomNavigationBarItem(
-                              label: 'Service',
-                              icondata:
-                                  const AssetImage("assets/images/service.png"),
-                              currentIndex: c.currentIndex.value,
-                              index: 2),
-                          customBottomNavigationBarItem(
-                            label: 'Support',
-                            icondata:
-                                const AssetImage("assets/images/support.png"),
-                            currentIndex: c.currentIndex.value,
-                            index: 3,
+            : NavigationBarTheme(
+          data: NavigationBarThemeData (
+
+            indicatorColor: Color(0xff2AA9C2)) ,
+              child: BottomAppBar(
+
+
+                child: Padding(
+                    padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                    child: Card(
+                        color: blue1,
+                        elevation: 20,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30)),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: NavigationBar(
+                            labelBehavior:
+                                NavigationDestinationLabelBehavior.alwaysHide,
+                            height: 49,
+                            backgroundColor: blue1,
+                            elevation: 0,
+                            selectedIndex: c.currentIndex.value,
+                            onDestinationSelected: (index) {
+                              c.setIndex(index);
+                            },
+                            destinations: [
+                              customBottomNavigationBarItem(
+                                  label: 'Home',
+                                  icondata:
+                                      const AssetImage("assets/images/home.png"),
+                                  currentIndex: c.currentIndex.value,
+                                  index: 0),
+                              customBottomNavigationBarItem(
+                                  label: 'Schedule',
+                                  icondata: const AssetImage(
+                                      "assets/images/schedule.png"),
+                                  currentIndex: c.currentIndex.value,
+                                  index: 1),
+                              customBottomNavigationBarItem(
+                                  label: 'Service',
+                                  icondata:
+                                      const AssetImage("assets/images/service.png"),
+                                  currentIndex: c.currentIndex.value,
+                                  index: 2),
+                              customBottomNavigationBarItem(
+                                label: 'Support',
+                                icondata:
+                                    const AssetImage("assets/images/support.png"),
+                                currentIndex: c.currentIndex.value,
+                                index: 3,
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
-                    )))));
+                        ))),
+              ),
+            )));
   }
 }
