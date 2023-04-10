@@ -120,13 +120,25 @@ class LandingScreen extends StatelessWidget {
             : NavigationBarTheme(
           data: NavigationBarThemeData (
 
+            // indicatorShape: RoundedRectangleBorder( //
+            //
+            //   // <-- SEE HERE
+            //   borderRadius: BorderRadius.circular(
+            //        40,
+            //   ),
+            //   side: BorderSide(
+            //     style: BorderStyle.solid,
+            //     color: Colors.greenAccent,
+            //   ),
+            // ),
+
             indicatorColor: Color(0xff2AA9C2)) ,
               child: BottomAppBar(
-
-
                 child: Padding(
                     padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
                     child: Card(
+
+
                         color: blue1,
                         elevation: 20,
                         shape: RoundedRectangleBorder(
@@ -134,11 +146,12 @@ class LandingScreen extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: NavigationBar(
+
                             labelBehavior:
                                 NavigationDestinationLabelBehavior.alwaysHide,
                             height: 49,
                             backgroundColor: blue1,
-                            elevation: 0,
+                            // elevation: 200,
                             selectedIndex: c.currentIndex.value,
                             onDestinationSelected: (index) {
                               c.setIndex(index);
@@ -169,7 +182,7 @@ class LandingScreen extends StatelessWidget {
                                 currentIndex: c.currentIndex.value,
                                 index: 3,
                               ),
-                            ],
+                            ]
                           ),
                         ))),
               ),
