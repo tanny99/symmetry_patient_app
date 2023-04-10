@@ -120,17 +120,17 @@ class LandingScreen extends StatelessWidget {
             : NavigationBarTheme(
           data: NavigationBarThemeData (
 
-            // indicatorShape: RoundedRectangleBorder( //
-            //
-            //   // <-- SEE HERE
-            //   borderRadius: BorderRadius.circular(
-            //        40,
-            //   ),
-            //   side: BorderSide(
-            //     style: BorderStyle.solid,
-            //     color: Colors.greenAccent,
-            //   ),
-            // ),
+            indicatorShape: RoundedRectangleBorder( //
+
+              // <-- SEE HERE
+              borderRadius: BorderRadius.circular(
+                   40,
+              ),
+              side: BorderSide(
+                style: BorderStyle.solid,
+                color: Colors.greenAccent,
+              ),
+            ),
 
             indicatorColor: Color(0xff2AA9C2)) ,
               child: BottomAppBar(
